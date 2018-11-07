@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Быки и коровы</title>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>Welcome to Bulls & Cows</h1>
+		</div>
+
+		<div class="app">
+			<div class="goal">
+				<p class="hello">Загаданное число: <span class="number"></span></p>
+				<p>Осталось <span class="turns">10</span> ходов</p>
+			</div>
+
+			<div class="form">
+				<input type="text" id="player"><label for="player">Введите число</label>
+				<input type="button" name="ok" id="guess" value="ClickMe" onClick="guess()"> 
+			</div>
+		</div>
+
+		<div class="table">
+			<div class="turnsList">
+				
+			</div>
+		</div>
+	</div>
+	
+	<script src="script/script.js"></script>
+</body>
+</html>
